@@ -1808,7 +1808,7 @@ def filter_dict_by_value_463(d, predicate):
     return {k: v for k, v in d.items() if predicate(v)}
 
 def convert_string_to_float_list_464(s):
-    return [float(x) for x in s.split() if is_string_numeric(x)]
+    return [float(x) for x in s.split() if is_string_numeric_441(x)]
 
 def count_characters_465(s):
     from collections import Counter
